@@ -9,7 +9,7 @@ namespace Tyuiu.DikanovAA.Sprint4.Task0.V18.Test
         {
             DataService ds = new DataService();
 
-            int[] array = { 9, 8, 7, 6, 5, 7, 3, 2, 7, 3 };
+            int[] array = { 9, 8, 7, 6, 5, 7, 3, 2, 7, 3 };//
 
             int wait = 41;
             int res = ds.GetSumOddArrEl(array);

@@ -6,7 +6,7 @@ namespace Tyuiu.DikanovAA.Sprint4.Task6.V28.Lib
         public string[] Calculate(string[] array)
         {
             
-            string[] newArray = Array.FindAll(array, x => x.Length == 4);
+            string[] newArray = Array.FindAll(array, x => x.Length != 4);
             return newArray;
             
         }
